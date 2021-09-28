@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega final</title>
+    <link rel="icon" href="media/mate-icono.png">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body id="bodyIndex">
+    <!-- ENCABEZADO DE LA PAGINA -->
+    <header class="fondoVerde">
+        <!-- TITULO Y LOGO -->
+        <section id="titulo" class="fondoVerde">
+            <h1 class="fondoVerde letraBlanca">Tomemos mate! <img src="media/mate-icono.png" alt="" width="50px" class="fondoVerde"> Tienda online</h1>
+        </section>
+        <!-- SECCION DEL CARRITO -->
+        <section id="carritoDeCompras" class="fondoVerde">
+            <img src="media/carrito2.png" alt="" height="40px" class="fondoVerde">
+            <button id="btnCarrito" class="letraBlanca">Carrito</button>
+            <!-- CONTADOR DE CARRITO -->
+            <span id="contador" class="letraBlanca">0</span>
+        </section>
+        <!-- LISTA DESPLEGABLE DEL CARRITO -->
+        <section id="listaCarrito">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Precio unitario</th>
+                        <th>Precio total</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaCarrito">
+                </tbody>
+                <tfoot>    
+                </tfoot>   
+            </table>
+            <div id="pieCarrito">
+                <span id="totalCompra" class="letraBlanca">Total: $0</span>
+                <!-- BOTONES DE LA LISTA DESPLEGABLE DEL CARRITO -->
+                <button  id="btnConfirmar"><a href="html/pago.html">Confirmar compra</a></button>
+                <button id="borrarCarrito">Limpiar carrito</button>    
+            </div>
+        </section>
+    </header>
+
+    <!-- INTRO DE LA PAGINA DE INICIO -->
+    <section id="intro">
+        <p>Acá podés comparar precios, marcas y llevarte tu yerba mate favorita y tu accesorio para tomarte unos ricos mates!</p>
+    </section>
+
+    <!-- OFERTA DE PRODUCTOS IMPRESA EN EL DOM -->
+    <section id="ofertaImpresa">
+    </section>
+
+    <!-- PIE DE PAGINA -->
+    <footer>
+        Proyecto realizado para el curso "JavaScript", del instituto CoderHouse. <br>
+        Realizado por Gerardo Andrés Coria.<br>
+        <a href="#intro" id="volver">Volver arriba</a>
+    </footer>
+    <!-- LINKS DE JAVASCRIPT Y JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

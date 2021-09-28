@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "nombre": "Yerba Taragüi",
+        "precio": 350,
+        "cantidad":1,
+        "imagen":"media/taragui.webp"
+    },
+    {
+        "id": 2,
+        "nombre": "Yerba La Merced",
+        "precio": 450,
+        "cantidad":1,
+        "imagen": "media/lamerced.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Yerba Rosamonte",
+        "precio":300,
+        "cantidad":1,
+        "imagen": "media/rosamonte.webp"
+    },
+    {
+        "id": 4,
+        "nombre":"Yerba Cachamate",
+        "precio": 250,
+        "cantidad":1,
+        "imagen": "media/cachamate.jpg"
+    },
+    {
+        "id": 5,
+        "nombre":"Yerba Playadito",
+        "precio": 310,
+        "cantidad":1,
+        "imagen": "media/playadito.jpg"
+    },
+    {
+        "id": 6,
+        "nombre":"Yerba CBSé",
+        "precio": 330,
+        "cantidad":1,
+        "imagen": "media/cbse.jpeg"
+    },
+    {
+        "id": 7,
+        "nombre": "Mate estilo 'camionero'",
+        "precio": 5350,
+        "cantidad":1,
+        "imagen": "media/camionero.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Mate estilo 'torpedo'",
+        "precio": 4450,
+        "cantidad":1,
+        "imagen": "media/torpedo.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Bombilla de alpaca artesanal",
+        "precio": 500,
+        "cantidad":1,
+        "imagen": "media/bombilla.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Termo", 
+        "precio": 2000,
+        "cantidad":1,
+        "imagen": "media/termo.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Bolso matero", 
+        "precio": 3000,
+        "cantidad":1,
+        "imagen": "media/bolso.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Pava eléctrica", 
+        "precio": 5800,
+        "cantidad":1,
+        "imagen": "media/pava.webp"
+    },
+    {
+        "id": 13,
+        "nombre": "Yerbera", 
+        "precio": 1100,
+        "cantidad":1,
+        "imagen": "media/yerbera.jpg"
+    }
+]
