@@ -150,6 +150,12 @@ $("#btnCarrito").click(function()
     $("#listaCarrito").fadeToggle(1000);
 })
 
+// Versión mobile del botón para ver u ocultar el carrito en la lista desplegable 
+$("#btnCarritoMobile").click(function()
+{
+    $("#listaCarrito").fadeToggle(1000);
+})
+
 // Actualizar el contador del carrito (el botón rojo)
 function contadorCarrito()
 {
