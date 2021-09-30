@@ -5,7 +5,7 @@
 {
 	margin: 0;
 	font-family: 'Merienda', cursive;
-	background: lightgreen;
+	
 }
 
 .fondoVerde
@@ -366,10 +366,12 @@ td:nth-child(3)>td
 #introPago
 {
 	grid-area: introPago;
+	background-color: lightgreen;
 	font-size: 2vw;
 	text-align: center;
 	width: 50vw;
-	margin: 0 auto;
+	margin: 10px auto;
+	border-radius: 20px;
 }
 
 #sectionForm
@@ -391,10 +393,10 @@ td:nth-child(3)>td
 
 #totalAPagar
 {
-	width: 40%;
+	width:50%;
 	background-color: white;
 	font-weight: bold;
-	margin: 10px 30% 0;
+	margin: 10px 25% 0;
 }
 
 /* Formulario para finalizar la compra */
@@ -410,8 +412,8 @@ input
 	width: 47%;
 	padding: 5px 0;
 	margin: 10px 0;
-	background-color: #c48649 ;
-	border: 1px solid #c48649;
+	background-color:whitesmoke ;
+	border: 1px solid black;
 	border-radius: 20px;
 	outline: none;
 	color: black;
@@ -424,12 +426,12 @@ input:focus
 
 input:hover
 {
-	background-color: #d1a476;
+	background-color: #fff;
 }
 
 ::placeholder
 {
-	color:white;
+	color:black;
 }
 
 #mail
@@ -450,16 +452,16 @@ label, #claveForm, #vencimientoTarjeta
 #cuotas
 {
 	margin: 10px 0;
-	background-color: #c48649;
+	background-color: whitesmoke;
 	padding: 5px 0;
 	border-radius: 20px;
 	outline: none;
-	color: white;
+	color: black;
 }
 
 option
 {
-	background-color: #d1a476;
+	background-color: whitesmoke;
 	color: black;
 }
 
@@ -513,12 +515,7 @@ option
 	#bodyIndex
 	{
 		
-		grid-template-rows: 15vh 30vh auto 12vh;
-	}
-
-	header
-	{
-		height:15vh;
+		grid-template-rows: 20vh 30vh auto 12vh;
 	}
 
 	#titulo
@@ -529,7 +526,7 @@ option
 	
 	h1
 	{
-		font-size: 8vw;
+		font-size: 5.5vh;
 		height: auto;
 	}
 
@@ -575,31 +572,27 @@ option
 
 	#listaCarrito
 	{
-		display: block;
-		position: absolute;
-		top: 18vh;
+		display: none;
+		top: 21vh;
 		left: 0%;
-		width: auto;
-		border-radius: 20px;
-		z-index: 999;
 	}
 	
 	#intro
 	{
 		background-attachment: inherit;
-		height: 190px;
+		height: auto;
 	}
 
 	#intro p
 	{
-		font-size: 5vw;
-		top: 3vh;
+		font-size: 3vh;
+		top: -3vh;
 	}
 
 	#ofertaImpresa div
 	{
 		width: 45vw;
-		height: 95vw;	
+		height: auto;	
 	}
 	#ofertaImpresa div h3
 	{
@@ -612,13 +605,40 @@ option
 		height: 40vw;
 	}
 
-	footer
-	{
-		font-size: 2.6vw;
-	}
 	.btnAgregar
 	{
 		padding: 5px;
 		border-radius: 20px;
+		margin-bottom: 10px;
 	}
+
+	#btnConfirmar, #borrarCarrito
+	{
+		width: 20vw;
+	}
+
+
+	footer
+	{
+		font-size: 2.6vw;
+	}
+
+	#introPago
+	{
+		font-size: 3vh;
+		text-align: center;
+		width: 90vw;
+		margin: 0 auto;
+	}
+	
+	#formulario, #sectionForm
+	{
+		width: 90vw;
+	}
+
+	input 
+	{
+		width: 100%;
+	}
+
 }

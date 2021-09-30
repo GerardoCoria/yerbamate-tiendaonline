@@ -147,13 +147,13 @@ function mostrarOferta()
 // Botón para ver u ocultar el carrito en la lista desplegable 
 $("#btnCarrito").click(function()
 {
-    $("#listaCarrito").fadeToggle(1000);
+    $("#listaCarrito").fadeToggle(500);
 })
 
 // Versión mobile del botón para ver u ocultar el carrito en la lista desplegable 
 $("#btnCarritoMobile").click(function()
 {
-    $("#listaCarrito").fadeToggle(1000);
+    $("#listaCarrito").fadeToggle(500);
 })
 
 // Actualizar el contador del carrito (el botón rojo)
