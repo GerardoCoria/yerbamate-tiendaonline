@@ -441,6 +441,7 @@ input:hover
 ::placeholder
 {
 	color:black;
+	padding-left: 10px;
 }
 
 #mail
@@ -535,7 +536,12 @@ option
 	#bodyIndex
 	{
 		
-		grid-template-rows: 20vh 30vh auto 12vh;
+		grid-template-rows: 15vh 30vh auto 12vh;
+	}
+
+	header
+	{
+		height: 15vh;
 	}
 
 	#titulo
@@ -546,7 +552,7 @@ option
 	
 	h1
 	{
-		font-size: 9vw;
+		font-size: 8.2vw;
 		height: auto;
 	}
 
@@ -582,7 +588,6 @@ option
 	{
 		margin: 0;
 	}
-
 
 	#contador
 	{
@@ -639,12 +644,17 @@ option
 		margin: 0;
 	}
 
-
 	footer
 	{
 		font-size: 2.6vw;
 	}
 
+	#bodyPago
+	{
+	
+		grid-template-rows: 15vh auto auto auto 10vh;
+	}
+	
 	#introPago
 	{
 		font-size: 2.5vh;
@@ -692,5 +702,9 @@ option
 		width: 85%;
 	}
 
+	#formulario img
+	{
+		margin-top: 10px;
+	}
 
 }
