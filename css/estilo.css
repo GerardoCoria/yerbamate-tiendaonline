@@ -552,8 +552,9 @@ option
 	
 	h1
 	{
-		font-size: 8.2vw;
+		font-size:  7vw;
 		height: auto;
+		margin-left: 10px;
 	}
 
 	h1 img 
