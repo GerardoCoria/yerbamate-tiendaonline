@@ -4,8 +4,9 @@
 * 
 {
 	margin: 0;
+	padding: 0;
 	font-family: 'Merienda', cursive;
-	
+	box-sizing: border-box;
 }
 
 .fondoVerde
@@ -125,17 +126,16 @@ h1
 	display: none;
 }
 
-#contador
+#contador 
 {
-	background-color: red;
-	border-radius: 50%;
-	width: 20px;
-	height: 20px;
-	font-size: 15px;
-	padding: 5px;
-	margin: 10px;
-	text-align: center;
-	font-weight: bold;
+    background-color: red;
+    border-radius: 50%;
+    width: 12%;
+    height: 30%;
+    font-size: 2vw;
+    margin: 5%;
+    text-align: center;
+    font-weight: bold;
 }
 
 /* Lista desplegable del carrito */
@@ -590,11 +590,13 @@ option
 		margin: 0;
 	}
 
-	#contador
+	#contador 
 	{
-		padding: 1px 9px 9px 9px;
-		margin: 10px;
-		font-size: 20px;
+		padding: 0%;
+		margin: 10%;
+		font-size: 5vw;
+		width: 30%;
+		height: 30%;
 	}
 
 	#listaCarrito
